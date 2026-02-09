@@ -74,3 +74,24 @@ if cadena_vacia(texto):
     print("La cadena está vacía")
 else:
     print("La cadena NO está vacía")
+
+
+# ===============================
+# PAR 1 - GRUPO 1
+# Gloria Jaramillo
+# Extezany Mora
+# ===============================
+
+def par_impar(numero):
+    if numero % 2 == 0:
+        return "Par"
+    else:
+        return "Impar"
+
+
+def mayor_numero(num1, num2):
+    if num1 > num2:
+        return num1
+    else:
+        return num2
+

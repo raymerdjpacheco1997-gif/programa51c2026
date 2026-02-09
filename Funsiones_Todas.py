@@ -29,3 +29,27 @@ resultado = calcular_promedio(mis_numeros)
 
 print(f"La lista es: {mis_numeros}")
 print(f"El promedio es: {resultado}")
+
+
+#      Grupo 6
+# Raiz cuadrada - Ecuacion-lineal 
+# Desarrollado por: Isacar Hernandez y Eimy Mendez
+
+def obtener_negativos(lista):
+    return [n for n in lista if n < 0]
+
+
+#se hace una lista donde imprima los numeros negativos
+def obtener_positivos(lista):
+    return [n for n in lista if n > 0]
+
+#Numero ingresados
+mi_lista = [10, -5, 8, -1, -22, 15]
+print(f"Isacar Hernandez: Negativos son {obtener_negativos(mi_lista)}")
+
+#imprimir numero positivos
+print(f"Eimy Mendez:  los numeros positivos son {obtener_positivos(mi_lista)}")
+
+
+
+#
